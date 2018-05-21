@@ -95,14 +95,14 @@ def main():
         sys.exit(1)
 
     header = parse(sys.argv[1])
-    print 'SWF header'
-    print '----------'
-    print 'Version:      %s' % header['version']
-    print 'Compression:  %s' % header['compressed']
-    print 'Dimensions:   %s x %s' % (header['width'], header['height'])
-    print 'Bounding box: (%s, %s, %s, %s)' % (header['xmin'], header['xmax'], header['ymin'], header['ymax'])
-    print 'Frames:       %s' % header['frames']
-    print 'FPS:          %s' % header['fps']
+    print('SWF header')
+    print('----------')
+    print('Version:      %s' % header['version'])
+    print('Compression:  %s' % header['compressed'])
+    print('Dimensions:   %s x %s' % (header['width'], header['height']))
+    print('Bounding box: (%s, %s, %s, %s)' % (header['xmin'], header['xmax'], header['ymin'], header['ymax']))
+    print('Frames:       %s' % header['frames'])
+    print('FPS:          %s' % header['fps'])
 
 
 if __name__ == '__main__':
