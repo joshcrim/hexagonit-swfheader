@@ -91,7 +91,7 @@ def main():
     import sys
 
     if len(sys.argv) < 2:
-        print 'Usage: %s [SWF file]' % sys.argv[0]
+        print('Usage: %s [SWF file]' % sys.argv[0])
         sys.exit(1)
 
     header = parse(sys.argv[1])
